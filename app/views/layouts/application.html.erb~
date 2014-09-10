@@ -123,6 +123,7 @@ $(document).on("click","#b2",function(){
   $("#b3").css("color","#FFFFFF");
   $("#b4").css("color","#FFFFFF");
   $("#titulo").text("Historia");
+  $("#contenido").css("font-size","2vmax");
   $("#contenido").text("Punto y Coma surge como un evento que busca la unificación de las carreras de Informática, Ciencias de la Computación e Ingeniería en Computación, mediante el desarrollo de talleres y ponencias con el fin de mantener a los asistentes al tanto del estado del arte en la tecnología actual.");
   $("#contenido").css("background-color","#FFFFFF");
  });
@@ -132,6 +133,7 @@ $(document).on("click","#b3",function(){
   $("#b1").css("color","#FFFFFF");
   $("#b4").css("color","#FFFFFF");
   $("#titulo").text("Misión");
+  $("#contenido").css("font-size","1vmax");
   $("#contenido").text("Llevar a cabo el primer evento que reúne a tres carreras de tecnología en la UNAM, Informática, Ingeniería en Computación y Ciencias de la Computación con el fin de crear un vínculo entre los universitarios y empresas líderes en tecnología. Además de proporcionar herramientas actuales e innovadoras a los alumnos para su implementación en lo profesional y laboral.");
   $("#contenido").css("background-color","#FFFFFF");
  });
@@ -141,6 +143,7 @@ $(document).on("click","#b4",function(){
   $("#b3").css("color","#FFFFFF");
   $("#b1").css("color","#FFFFFF");
   $("#titulo").text("Metas");
+  $("#contenido").css("font-size","3vmax");
   $("#contenido").html("· Traer a conocimiento el estado del arte de la tecnología.<br>· Lograr la convivencia entre carreras afines a la Computación.<br>· Fomentar el interés de los asistentes por el campo de la Computación.");
   $("#contenido").css("background-color","#FFFFFF");
  });
