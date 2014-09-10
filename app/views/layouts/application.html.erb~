@@ -88,7 +88,7 @@ text-align:center;
 }
 #contenido{
 color: #000000;
-font-size: 20pt;
+font-size: 5vmax;
 font-family: Actor;
 height:9em;
 width:95%;
