@@ -123,7 +123,7 @@ $(document).on("click","#b2",function(){
   $("#b3").css("color","#FFFFFF");
   $("#b4").css("color","#FFFFFF");
   $("#titulo").text("Historia");
-  $("#contenido").text("Texto de prueba 1");
+  $("#contenido").text("Punto y Coma surge como un evento que busca la unificación de las carreras de Informática, Ciencias de la Computación e Ingeniería en Computación, mediante el desarrollo de talleres y ponencias con el fin de mantener a los asistentes al tanto del estado del arte en la tecnología actual.");
   $("#contenido").css("background-color","#FFFFFF");
  });
 $(document).on("click","#b3",function(){
@@ -141,7 +141,7 @@ $(document).on("click","#b4",function(){
   $("#b3").css("color","#FFFFFF");
   $("#b1").css("color","#FFFFFF");
   $("#titulo").text("Metas");
-  $("#contenido").text("Texto de prueba 3");
+  $("#contenido").html("· Traer a conocimiento el estado del arte de la tecnología.<br>· Lograr la convivencia entre carreras afines a la Computación.<br>· Fomentar el interés de los asistentes por el campo de la Computación.");
   $("#contenido").css("background-color","#FFFFFF");
  });
 
