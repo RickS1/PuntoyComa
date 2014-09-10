@@ -1,5 +1,5 @@
 <% content_for :body do -%>
-  background="/images/2.jpg"
+  background="/images/2.jpg" style="background-size:cover;"
 <% end %>
 <div class="row" style="height:37.9em;">
   <div class="col-sm-4">
