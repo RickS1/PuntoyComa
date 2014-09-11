@@ -317,7 +317,7 @@ $("#bu3").css("color","#065466");
 $("#bu2").css("color","#FFFFFF");
 $("#bu1").css("color","#FFFFFF");
 $("#dia").html('<span>19</span><div style="font-size:5vmin;padding-left:33vmax;line-height:0.4em;position:relative;top:-2em;">Posgrado<br><br><br> de <br><br><br>Ingeniería</div>');
-$("#p1").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Código CDMX</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lab PLC</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:00 - 10:30</div>');
+$("#p1").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Hackear al Gobierno</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lab PLC</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:00 - 10:30</div>');
 $("#p2").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lightning talk 2</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">PROTECO</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:30 - 11:00</div>');
 $("#p3").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Redefine IT</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">EMC2 Academic Alliance</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">11:00 - 12:00</div>');
 $("#p4").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Itera</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">12:00 - 12:30</div>');
@@ -325,7 +325,7 @@ $("#p5").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Tec
 $("#p6").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Herramientas para el<br><br><br> empleo,<br><br><br>profesionales de TI</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br>Bolsa de trabajo DGOSE<br><br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br>13:30 - 14:30<br><br><br></div>');
 $("#p7").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Experiencia Android Wear</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">GSA IPN</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">14:30 - 15:30</div>');
 $("#p8").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Mozilla</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">15:30 - 16:30</div>');
-$("#p9").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">AndroidTitlan</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">16:30 - 17:30</div>');
+$("#p9").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Cultura hacker</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">AndroidTitlan</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">16:30 - 17:30</div>');
 $("#p10").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Clausura</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">SAIC</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">17:30 - 18:00</div>');
 $("#p10").css("visibility","visible");
 $("#p11").css('visibility','hidden');
