@@ -1,14 +1,18 @@
 <div class="row primero">
-  <div class="col-sm-5" style="background-color:#00C9FF;height:100%;">
+  <div class="col-sm-5" style="background-color:#00C9FF;">
     <div id="lateral">
         Agenda<br>
-        <%= image_tag("iconoagenda.png", :alt => "agenda", :height => "120vmax", :width => "120vmax") %><br>
+        <%= image_tag("iconoagenda.png", :alt => "agenda") %><br>
+	<div class="row">
+ 	<div class="col-xs-12" style="text-align:center;">
          <button class="btn2" id="bu1" style="color:#065466;"><span class="bot">·</span></button> 
          <button class="btn2" id="bu2"><span class="bot">·</span></button>
          <button class="btn2" id="bu3"><span class="bot">·</span></button> 
+</div>
+</div>
     </div>
   </div>
-  <div class="col-sm-7" style="height:100%;padding-top:2em;margin-bottom:8em;">
+  <div class="col-sm-7" style="height:100%;padding-top:2em;">
     <div class="row" style="text-align:center;">
       <div class="col-sm-1">
       </div>

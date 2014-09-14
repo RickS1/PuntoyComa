@@ -9,7 +9,7 @@
        <button class="btn1" id="b4"><span class="bot">·</span></button> 
     </div>
   </div>
-  <div class="col-sm-7" style="height:110%;text-align:center;">
+  <div class="col-sm-7" style="height:100%;text-align:center;">
     <div id="titulo">Ubicación
     </div>
     <div id="contenido">
