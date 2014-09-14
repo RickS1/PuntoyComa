@@ -8,7 +8,7 @@
          <button class="btn2" id="bu3"><span class="bot">·</span></button> 
     </div>
   </div>
-  <div class="col-sm-7" style="height:100%;padding-top:2em;">
+  <div class="col-sm-7" style="height:100%;padding-top:2em;margin-bottom:8em;">
     <div class="row" style="text-align:center;">
       <div class="col-sm-1">
       </div>
@@ -73,7 +73,7 @@
 
     <div class="row" style="text-align:center;font-family:Actor;" id="p5">
       <div class="col-xs-4 well well-sm" style="line-height:0.4em;">
-      Pendiente
+      Big Data
       </div>
       <div class="col-xs-4 well well-sm" style="line-height:0.4em;">
       IBM
