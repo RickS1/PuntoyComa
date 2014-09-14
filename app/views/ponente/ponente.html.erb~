@@ -34,7 +34,7 @@
       Ponentes<br>
       <%= image_tag("iconoponentes.png", :alt => "ponentes") %><br>
 <div class="row">
-<div class="col-xs-12" style="font-size:11vmin;">
+<div class="col-xs-12" style="font-size:9vmin;">
          <button class="btn3" id="bt1" style="color:#5B5904;"><span class="bot">·</span></button> 
          <button class="btn3" id="bt2"><span class="bot">·</span></button>
          <button class="btn3" id="bt3"><span class="bot">·</span></button>

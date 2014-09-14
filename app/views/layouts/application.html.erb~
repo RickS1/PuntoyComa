@@ -99,7 +99,7 @@ text-align: center;
 padding-top:1em;
 font-family:Actor;
 font-size:70pt;
-font-size:13vmin;
+font-size:12vmin;
 text-align:center;
 color:#FFFFFF;
 }
