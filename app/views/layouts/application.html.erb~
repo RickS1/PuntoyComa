@@ -93,7 +93,7 @@ text-align:center;
 color: #000000;
 font-size: 3vmax;
 font-family: Actor;
-height:14em;
+height:13em;
 width:95%;
 text-align: center;
 }
@@ -281,38 +281,41 @@ $("#p1").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pre
 $("#p2").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Inauguración</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">UNAM</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">09:30 - 10:00</div>');
 $("#p3").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">¿Es la computación una<br><br><br> ciencia?</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>Académico Ciencias<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>10:30 - 11:30<br><br></div>');
 $("#p4").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Problemas de coordinación<br><br><br> en arquitecturas multicore</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>Académico Ciencias<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>11:30 - 12:00<br><br></div>');
-$("#p5").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Big Data</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">IBM</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">12:00 - 13:00</div>');
+$("#p5").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Big Data: El arte de<br><br><br> lo posible</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>IBM<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>12:00 - 13:00<br><br></div>');
 $("#p6").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Hacer un videojuego no es<br><br><br> un juego</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>SODVI<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>13:00 - 13:30<br><br></div>');
 $("#p7").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Puntos, comas y pesos</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">DSA Soluciones</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">13:30 - 14:00</div>');
 $("#p8").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Linux en tu vida cotidiana...<br><br><br> ¡Bienvenidos a la Matrix!</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>OpenSUSE<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>14:00 - 14:30<br><br></div>');
-$("#p9").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lightning  talk 2 30 min</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">GSA UNAM</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">14:30 - 15:00</div>');
+$("#p9").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">¿Qué es GSA?</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">GSA UNAM</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">14:30 - 15:00</div>');
 $("#p10").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">RobotOps y el Internet<br><br><br> de las cosas</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>HybridGroup<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>15:00 - 15:30<br><br></div>');
 $("#p11").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Valor de la certificación de<br><br><br> las mejores prácticas en<br><br><br> tecnologías de la<br><br><br> información</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br><br>Pink Elephant<br><br><br><br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br><br>16:00 - 17:00<br><br><br><br><br></div>');
 $("#p12").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Emprendimiento e <br><br><br>incubación en la UNAM</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>CID<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>17:00 - 17:30<br><br></div>');
 $("#p13").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">En búsqueda del antídoto<br><br><br> del Ébola de las TICs:<br><br><br> La postura de EC-Council en<br><br><br> la UNAM</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br><br><br>ITESC/EC-Council LATAM<br><br><br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br><br><br>17:30 - 18:00<br><br><br><br></div>');
+$("#p15").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">¿Y los ingenieros para <br><br><br>qué necesitamos<br><br><br> matemáticas? / El costo<br><br><br> de emprender</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br><br><br>Tech MX<br><br><br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br><br><br>15:30 - 16:00<br><br><br><br></div>');
 $("#p10").css('visibility','visible');
 $("#p11").css('visibility','visible');
 $("#p12").css('visibility','visible');
 $("#p13").css('visibility','visible');
+$("#p15").css("visibility","visible");
 });
 $(document).on("click","#bu2",function(){
 $("#bu2").css("color","#065466");
 $("#bu1").css("color","#FFFFFF");
 $("#bu3").css("color","#FFFFFF");
 $("#dia").html('<span>18</span><div style="font-size:2vmin;padding-left:33vmax;line-height:0.4em;position:relative;top:-2em;">Facultad de <br><br><br>Ingeniería<br><br><br>Auditorio Javier<br><br><br> Barros Sierra</div>');
-$("#p1").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lightning talk 1</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Tech MX</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:00 - 10:30</div>');
+$("#p1").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">No dejarse vencer por<br><br><br> una mala experiencia<br><br><br> de emprendimiento</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br>Tech MX<br><br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br>10:00 - 10:30<br><br><br></div>');
 $("#p2").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Plataforma Gobierno<br><br><br> Abierto CDMX</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>Lab PLC<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>10:30 - 11:00<br><br></div>');
 $("#p3").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Tendencia maker:<br><br><br> ¿Hasta dónde llega<br><br><br> tu imaginación?</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br>Intel<br><br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br>11:00 - 12:00<br><br><br><br></div>');
 $("#p4").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Profesionales web: El perfil<br><br><br> más importante en<br><br><br> nuestros tiempos</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br>Mejorando.la<br><br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br>12:00 - 13:00<br><br><br></div>');
 $("#p5").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Arquitectura de Sistemas <br><br><br>Heterogéneos (HSA)</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>AMD<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>13:00 - 14:00<br><br></div>');
 $("#p6").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">El Marketing digital</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Google</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">14:00 - 15:00</div>');
 $("#p7").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Back End Development:<br><br><br> Solving Existing<br><br><br> Challenging Problems That<br><br><br> Really Drive <br><br><br>Technology Forward</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br><br><br>Oracle<br><br><br><br><br><br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br><br><br>15:00 - 16:00<br><br><br><br><br><br><br></div>');
-$("#p8").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Cisco</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">16:00 - 17:00</div>');
+$("#p8").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Internet of everything</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Cisco</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">16:00 - 17:00</div>');
 $("#p9").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Microsoft y el ¿Código libre?</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Microsoft</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">17:00 - 18:00</div>');
 $("#p10").css('visibility','hidden');
 $("#p11").css('visibility','hidden');
 $("#p12").css('visibility','hidden');
 $("#p13").css('visibility','hidden');
+$("#p15").css("visibility","hidden");
 });
 $(document).on("click","#bu3",function(){
 $("#bu3").css("color","#065466");
@@ -333,6 +336,7 @@ $("#p10").css("visibility","visible");
 $("#p11").css('visibility','hidden');
 $("#p12").css('visibility','hidden');
 $("#p13").css('visibility','hidden');
+$("#p15").css("visibility","hidden");
 });
 </script>
 </head>
