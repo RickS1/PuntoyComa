@@ -5,8 +5,14 @@
   <div class="col-sm-4">
   </div>
   <div class="col-sm-4" style="padding-top:4cm;">
-  <a href="https://www.eventbrite.es/e/entradas-punto-y-coma-2014-congreso-de-innovacion-y-tecnologia-universitaria-12890043467"><%= image_tag("botonregistrate.png",:alt => "reg" ) %></a>
-
+  <%= image_tag("botonregistrate.png",:alt => "reg" ) %>
+  <div style="padding-top:1cm;padding-left:1cm;">
+  <a href='/users/auth/twitter'><%= image_tag('botontwitterregistrate.png', :alt => 'twitter') %></a>
+  <%= "  .  . " %>
+  <a href="/users/auth/facebook"><%= image_tag('botonfacebookregistrate.png', :alt => 'facebook') %></a>
+  <%= "  .  . " %>
+  <a href="/users/auth/googleplus"><%= image_tag('botongoogleregistrate.png', :alt => 'google') %></a>
+  </div>
 </div>
   </div>
   <div class="col-sm-4">
