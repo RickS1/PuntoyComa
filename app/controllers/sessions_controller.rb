@@ -1,7 +1,7 @@
 class SessionsController < Devise::SessionsController
   def create
     @user = User.find_for_twitter_oauth(auth_hash)
-    sign_in(@user)
+    self.current_user = @user
     redirect_to '/'
   end
 
