@@ -15,8 +15,6 @@ Rails.application.routes.draw do
   get 'congreso/congreso'
  
   get 'main/index'
-
-  get 'congreso/registro'
   
   devise_scope :user do
     match "/users/auth/:provider/callback" => "sessions#create", :via => [:get, :post]

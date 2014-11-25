@@ -18,7 +18,7 @@ Rails.application.routes.draw do
   
   devise_scope :user do
     match "/users/auth/:provider/callback" => "sessions#create", :via => [:get, :post]
-    match "/signout" => "sessions#destroy", :via => :get
+    match "/signout" => "sessions#destroy", :via => [:get, :delete]
   end
 
   devise_for :users, :controllers => {:omniauth_callbacks => "omniauth_callbacks" }
