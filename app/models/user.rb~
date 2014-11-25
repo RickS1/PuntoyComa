@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, 
          :validatable, :omniauthable
   def self.find_for_twitter_oauth(auth, signed_in_resource=nil)
+    puts "#{auth}"
     user = User.where(:provider => auth.provider, :uid => auth.uid).first
     unless user
       registered_user = User.where(:provider => auth.provider, :uid => auth.uid).first

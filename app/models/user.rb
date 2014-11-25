@@ -6,11 +6,11 @@ class User < ActiveRecord::Base
          :validatable, :omniauthable
   def self.find_for_twitter_oauth(auth, signed_in_resource=nil)
     puts "#{auth}"
-    user = User.where(:provider => auth.provider, :uid => auth.uid).first
-    unless user
+    @user = User.where(:provider => auth.provider, :uid => auth.uid).first
+    unless @user
       registered_user = User.where(:provider => auth.provider, :uid => auth.uid).first
       unless registered_user
-        user = User.create(name: auth.extra.raw_info.name,
+        @user = User.create(name: auth.extra.raw_info.name,
                             provider: auth.provider,
                             uid: auth.uid,
                             email: auth.uid+"@twitter.com",
